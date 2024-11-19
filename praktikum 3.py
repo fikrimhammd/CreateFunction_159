@@ -7,6 +7,7 @@ def Konversi_Suhu(Temperature, value):
         Temperatur_suhu = (Temperature * 9/5) + 32 # Menghitung Fahrenheit
         return Temperatur_suhu, 'F'
 
+
 # Konversi dari Celsius ke Fahrenheit
 celsius_temperatur = 30
 Temperatur_suhu, target_value = Konversi_Suhu(celsius_temperatur, 'F')
